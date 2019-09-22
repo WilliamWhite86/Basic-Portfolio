@@ -1,0 +1,26 @@
+
+.name {
+    background: #4aaaa5;
+    width: 20%;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #ffffff;
+    padding: 15px;
+    margin: 0;
+    text-align: center;
+    clear: both;
+}
+
+.topnav {
+    float: right;
+    clear: both;
+    margin: 0;
+  }
+
+  .about {
+      clear:both;
+  }
+
+  .picture {
+      float:left;
+      margin: 5px;
+  }

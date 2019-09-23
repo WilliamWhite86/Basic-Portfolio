@@ -2,9 +2,20 @@
     content: " ";
     display: block;
     clear: both;
+    margin: 0;
   }
 
-.header {
+body {
+    margin:0;
+    background-image: url("../images/green_gobbler/green_gobbler_@2X.png");
+}
+
+.headerContent {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+header {
     float: left;
     background: #4aaaa5;
     width: 20%;
@@ -13,20 +24,36 @@
     padding: 15px;
     margin: 0;
     text-align: center;
-    font-size: 2em;
+    font-size: 1.75em;
 }
 
 .right-nav {
     float: left;
     margin-left: 50%;
-    padding: 25px;
-  }
+    padding: 25px 10px 10px 10px;
+    margin-bottom: 0;
+}
 
-  .about {
-      clear:both;
-  }
+main {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
 
-  .picture {
-      float:left;
-      margin: 5px;
-  }
+.picture {
+    float:left;
+    padding: 15px;
+}
+
+hr {
+    margin: 0;
+}
+
+h1 {
+    padding: 15px;
+}
+
+p {
+    padding: 5px;
+    margin: 5px 10px 10px 0px;
+}

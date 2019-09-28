@@ -148,6 +148,11 @@ input[type=submit] {
     font-size: 1em;
 }
 
+input[type=submit]:hover{
+    background: #4aaaa5;
+    color: #dddddd;
+}
+
 #inputMessage {
     height: 100px;
 }
